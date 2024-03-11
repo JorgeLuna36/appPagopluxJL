@@ -198,6 +198,7 @@ class _PayState extends State<Pay> {
   openPpx() {
     print('Se habre el botón de pagos');
     this._paymentModelExample = PagoPluxModel();
+    //this._paymentModelExample?.payboxRemail = 'ricardo@virtualcreate.net';
     this._paymentModelExample?.payboxRemail = 'da.nielrolesppx@gmail.com';
     this._paymentModelExample?.payboxSendmail = email;
     this._paymentModelExample?.payboxRename = 'PagoPlux Shop';
